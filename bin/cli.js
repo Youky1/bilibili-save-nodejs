@@ -6,7 +6,7 @@ const args = require("minimist")(process.argv.slice(2));
 if (args.default || args.d) {
   download({
     downloadRange: "byMid",
-    downloadType: "video",
+    downloadType: "mp4",
     content: "313580179",
   });
 } else {
@@ -26,8 +26,8 @@ if (args.default || args.d) {
         name: "downloadType",
         message: "下载视频 or 音频",
         choices: [
-          { name: "视频", value: "video" },
-          { name: "仅音频", value: "audio" },
+          { name: "视频", value: "mp4" },
+          { name: "仅音频", value: "mp3" },
         ],
       },
       {
