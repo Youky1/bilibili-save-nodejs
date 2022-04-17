@@ -1,8 +1,8 @@
 {
-  "name": "bilibili-download",
+  "name": "bilibili-download-nodejs",
   "version": "0.0.1",
-  "description": "下载B站视频，支持通过视频URL、BV号，或通过UP主mid一键下载所有视频",
-  "main": "index.js",
+  "description": "下载B站视频/音频，支持单个URL下载或一键下载UP主所有内容。提供命令行工具和Nodejs的API",
+  "main": "lib/index.js",
   "scripts": {
     "download": "bili-download",
     "download:93": "bili-download --default"
@@ -10,10 +10,15 @@
   "bin": {
     "bili-download": "./bin/cli.js"
   },
+  "homepage": "https://github.com/Youky1/bilibili-download-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Youky1/bilibili-download-nodejs"
+  },
   "keywords": [
     "bilibili-download",
     "bilibili",
-    "download"
+    "nodejs"
   ],
   "author": "Youky",
   "license": "ISC",
@@ -21,7 +26,6 @@
     "app-root-path": "^3.0.0",
     "axios": "^0.26.1",
     "cheerio": "^1.0.0-rc.10",
-    "ibili": "^1.1.1",
     "inquirer": "^8.2.2",
     "minimist": "^1.2.6"
   }
