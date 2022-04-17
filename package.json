@@ -1,0 +1,28 @@
+{
+  "name": "bilibili-download",
+  "version": "0.0.1",
+  "description": "下载B站视频，支持通过视频URL、BV号，或通过UP主mid一键下载所有视频",
+  "main": "index.js",
+  "scripts": {
+    "download": "bili-download",
+    "download:93": "bili-download --default"
+  },
+  "bin": {
+    "bili-download": "./bin/cli.js"
+  },
+  "keywords": [
+    "bilibili-download",
+    "bilibili",
+    "download"
+  ],
+  "author": "Youky",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "ibili": "^1.1.1",
+    "inquirer": "^8.2.2",
+    "minimist": "^1.2.6"
+  }
+}
