@@ -20,7 +20,7 @@
     "bilibili",
     "nodejs"
   ],
-  "author": "Youky",
+  "author": "youky",
   "license": "ISC",
   "dependencies": {
     "app-root-path": "^3.0.0",
