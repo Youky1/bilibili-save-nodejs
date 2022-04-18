@@ -1,6 +1,6 @@
 {
-  "name": "bilibili-download-nodejs",
-  "version": "0.0.1",
+  "name": "bilibili-save-nodejs",
+  "version": "1.0.0",
   "description": "下载B站视频/音频，支持单个URL下载或一键下载UP主所有内容。提供命令行工具和Nodejs的API",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/Youky1/bilibili-download-nodejs"
   },
   "keywords": [
-    "bilibili-download",
+    "download",
     "bilibili",
     "nodejs"
   ],
